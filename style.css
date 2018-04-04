@@ -1,0 +1,55 @@
+* {
+    font-family: 'Roboto Slab', serif;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    padding: 0 30% 0 30%;
+    background-color: black;
+    color: #1ec503;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    margin-top: 150px;
+    font-size: 16px;
+}
+
+.info span {
+
+    -webkit-animation: blink1 1s linear infinite;
+    animation: blink1 1s linear infinite;
+}
+
+@-webkit-keyframes blink1 {
+    0% {
+        color: #1ec503;
+        opacity: 1;
+    }
+    50% {
+        color: #1ec503;
+        opacity: 0;
+    }
+    100% {
+        color: #1ec503;
+        opacity: 1;
+    }
+}
+
+@keyframes blink1 {
+    0% {
+        color: #1ec503;
+        opacity: 1;
+    }
+    50% {
+        color: #1ec503;
+        opacity: 0;
+    }
+    100% {
+        color: #1ec503;
+        opacity: 1;
+    }
+}
